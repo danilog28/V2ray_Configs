@@ -1,4 +1,10 @@
+-----------------------------
+Old Configs But Works
+-----------------------------
 
+-----------------------------
+New Configs
+-----------------------------
 vless://4c7baf58-8ecb-44b0-9656-2b9247dd8290@151.101.110.219:443?encryption=none&type=ws&host=Fijji.global.ssl.fastly.neT.&headerType=none&path=%2F&security=tls&sni=speedtest.net#%5B%F0%9F%87%AF%F0%9F%87%B5%5Dt.me%2FConfigsHub
 vless://4da72a60-61b9-4571-a054-1bba24bf6728@151.101.110.219:443?encryption=none&type=ws&host=nesfeshzksab.global.ssl.fastly.neT.&headerType=none&path=%2F&security=tls&sni=speedtest.net#%5B%F0%9F%87%AF%F0%9F%87%B5%5Dt.me%2FConfigsHub
 
