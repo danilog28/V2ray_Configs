@@ -1,12 +1,7 @@
------------------------------
-Old Configs But Works
------------------------------
+
 vless://4c7baf58-8ecb-44b0-9656-2b9247dd8290@151.101.110.219:443?encryption=none&type=ws&host=Fijji.global.ssl.fastly.neT.&headerType=none&path=%2F&security=tls&sni=speedtest.net#%5B%F0%9F%87%AF%F0%9F%87%B5%5Dt.me%2FConfigsHub
 vless://4da72a60-61b9-4571-a054-1bba24bf6728@151.101.110.219:443?encryption=none&type=ws&host=nesfeshzksab.global.ssl.fastly.neT.&headerType=none&path=%2F&security=tls&sni=speedtest.net#%5B%F0%9F%87%AF%F0%9F%87%B5%5Dt.me%2FConfigsHub
 
------------------------------
-New Configs
------------------------------
 𝘾𝙤𝙣𝙛𝙞𝙜𝙨𝙃𝙪𝙗🖤:
 #v2ray
 vless://49b1ede9-fb9b-4206-ba07-55d2db05d7c0@snapp.ir:2095?path=%2F&security=none&encryption=none&host=panel98.net2box.ir&type=ws#[🇮🇷]t.me/ConfigsHub
