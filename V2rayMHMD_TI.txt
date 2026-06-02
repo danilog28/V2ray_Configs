@@ -7,7 +7,6 @@ trojan://telegram-id-privatevpns@15.236.251.60:22222/?security=tls&sni=trojan.bu
 -----------------------------
 ✅️New Configs👇👇
 -----------------------------
-
 vless://4356280e-45ae-4b7d-b093-0439a870ef82@tamin.ir:2052?path=%2F&security=none&encryption=none&host=free.sedighi0915.ir&type=ws#[🇮🇷]t.me/ConfigsHub```
 vless://9a98146a-235c-40ed-9633-a67fe3bf9f18@49.238.237.33:443?mode=packet-up&path=%2Fxn--q9jyb4c&security=tls&encryption=none&extra=%7B%22scMaxEachPostBytes%22%3A%221000000%22%2C%22scMinPostsIntervalMs%22%3A%2230%22%2C%22xPaddingBytes%22%3A%22100-1000%22%7D&insecure=0&host=cloudflare.dns.xn--q9jyb4c&type=xhttp&allowInsecure=0&sni=cloudflare.dns.xn--q9jyb4c#[🏁]t.me/ConfigsHub```
 vless://1a1e38b5-752d-4c65-8dae-a28e5a106d7a@104.17.121.71:443?mode=auto&path=%2FTelegram-Zedmodeon&security=tls&encryption=none&alpn=h2,http/1.1&fp=chrome&allowinsecure=0&type=xhttp&sni=manok.tll-far.ir#[🇨🇦]t.me/ConfigsHub```
