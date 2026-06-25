@@ -775,7 +775,7 @@ vless://ff4c6350-77ef-4df1-a0db-86709f90ad6f@69.84.182.21:443?alpn=h2%2Chttp%2F1
 
 ✅ **تست کنید و میتونید ری اکشن بدین** ❤️
 
-**📣** @mtproto_proserver  ⭐📣
+**📣** @mtproto_proserver  ⭐📣
 **سرور ویتوری
 
 همه اپراتورها**
@@ -803,7 +803,7 @@ vless://ff4c6350-77ef-4df1-a0db-86709f90ad6f@104.17.108.21:443?alpn=h2%2Chttp%2F
 
 ✅ **تست کنید و میتونید ری اکشن بدین** ❤️
 
-**📣** @mtproto_proserver  ⭐📣
+**📣** @mtproto_proserver  ⭐📣
 ```vless://8dc7722c-2767-4eea-a28b-2f8daacc07e3@151.115.164.43:8880?mode=gun&security=none&encryption=none&type=grpc#@v2reya88%20%7C%20%40confinghub2```
 
 📍 Location: 🌍 Italy
