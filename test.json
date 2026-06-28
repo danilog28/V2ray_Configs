@@ -1,0 +1,356 @@
+{
+  "log": {
+    "disabled": false,
+    "level": "warn",
+    "timestamp": true
+  },
+  "dns": {
+    "servers": [
+      {
+        "type": "https",
+        "tag": "dns-remote",
+        "server": "8.8.8.8",
+        "detour": "✅  Select"
+      },
+      {
+        "type": "udp",
+        "tag": "dns-direct",
+        "server": "8.8.8.8"
+      }
+    ],
+    "rules": [
+      {
+        "clash_mode": "Direct",
+        "server": "dns-direct"
+      },
+      {
+        "clash_mode": "Global",
+        "server": "dns-remote"
+      }
+    ],
+    "strategy": "prefer_ipv4"
+  },
+  "inbounds": [
+    {
+      "type": "tun",
+      "tag": "tun-in",
+      "address": [
+        "172.19.0.1/28"
+      ],
+      "mtu": 9000,
+      "auto_route": true,
+      "strict_route": true,
+      "stack": "mixed"
+    },
+    {
+      "type": "mixed",
+      "tag": "mixed-in",
+      "listen": "127.0.0.1",
+      "listen_port": 2334
+    },
+    {
+      "type": "socks",
+      "tag": "socks-in",
+      "listen": "127.0.0.1",
+      "listen_port": 2333
+    }
+  ],
+  "outbounds": [
+    {
+      "type": "selector",
+      "tag": "✅  Select",
+      "outbounds": [
+        "Best Ping 🚀",
+        "🔵@_@chillguy_vpn",
+        "🔵@_@chillguy_vpn_2",
+        "🔵@_@chillguy_vpn_3",
+        "🔵@_@chillguy_vpn_4",
+        "🔵@_@chillguy_vpn_5",
+        "🔵@_@chillguy_vpn_6",
+        "🔵@_@chillguy_vpn_7",
+        "🔵@_@chillguy_vpn_8",
+        "🔵@T.ME_VYNEXAPP"
+      ],
+      "interrupt_exist_connections": false
+    },
+    {
+      "type": "urltest",
+      "tag": "Best Ping 🚀",
+      "outbounds": [
+        "🔵@_@chillguy_vpn",
+        "🔵@_@chillguy_vpn_2",
+        "🔵@_@chillguy_vpn_3",
+        "🔵@_@chillguy_vpn_4",
+        "🔵@_@chillguy_vpn_5",
+        "🔵@_@chillguy_vpn_6",
+        "🔵@_@chillguy_vpn_7",
+        "🔵@_@chillguy_vpn_8",
+        "🔵@T.ME_VYNEXAPP"
+      ],
+      "url": "https://www.gstatic.com/generate_204",
+      "interval": "30s",
+      "interrupt_exist_connections": false
+    },
+    {
+      "type": "direct",
+      "tag": "direct",
+      "domain_resolver": "dns-direct"
+    },
+    {
+      "tag": "🔵@_@chillguy_vpn",
+      "type": "vless",
+      "server": "92.38.139.63",
+      "server_port": 9891,
+      "uuid": "97d290a0-acec-4aae-b8cf-c7111a5a6397",
+      "transport": {
+        "type": "xhttp",
+        "path": "/#🔵@chillguy_vpn",
+        "host": "92.38.139.63"
+      },
+      "domain_resolver": "dns-direct"
+    },
+    {
+      "tag": "🔵@_@chillguy_vpn_2",
+      "type": "vless",
+      "server": "my-pp.arminpixel2.workers.dev",
+      "server_port": 2096,
+      "uuid": "631a49ec-2eb5-2215-0cac-9d292696d162",
+      "tls": {
+        "enabled": true,
+        "server_name": "my-pp.arminpixel2.workers.dev",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/sync#🔵@chillguy_vpn",
+        "headers": {
+          "Host": "my-pp.arminpixel2.workers.dev"
+        }
+      },
+      "domain_resolver": "dns-direct"
+    },
+    {
+      "tag": "🔵@_@chillguy_vpn_3",
+      "type": "vless",
+      "server": "92.38.139.63",
+      "server_port": 9891,
+      "uuid": "97d290a0-acec-4aae-b8cf-c7111a5a6397",
+      "transport": {
+        "type": "xhttp",
+        "path": "/#🔵@chillguy_vpn",
+        "host": "92.38.139.63"
+      },
+      "domain_resolver": "dns-direct"
+    },
+    {
+      "tag": "🔵@_@chillguy_vpn_4",
+      "type": "vless",
+      "server": "fbi.gov",
+      "server_port": 2053,
+      "uuid": "ec9fe17e-7427-4d79-a774-690335482982",
+      "tls": {
+        "enabled": true,
+        "server_name": "pars.shopbertar.ir",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "alpn": [
+          "h2",
+          "http/1.1"
+        ]
+      },
+      "transport": {
+        "type": "xhttp",
+        "path": "/#🔵@chillguy_vpn",
+        "host": "pars.shopbertar.ir"
+      },
+      "domain_resolver": "dns-direct"
+    },
+    {
+      "tag": "🔵@_@chillguy_vpn_5",
+      "type": "vless",
+      "server": "zeus-panel-txdli6.wqrewr43r32f.workers.dev",
+      "server_port": 443,
+      "uuid": "77d59f0a-285a-45be-9c18-6f5dfff562f1",
+      "tls": {
+        "enabled": true,
+        "server_name": "zeus-panel-txdli6.wqrewr43r32f.workers.dev",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "randomized"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/#🔵@chillguy_vpn",
+        "headers": {
+          "Host": "zeus-panel-txdli6.wqrewr43r32f.workers.dev"
+        }
+      },
+      "domain_resolver": "dns-direct"
+    },
+    {
+      "tag": "🔵@_@chillguy_vpn_6",
+      "type": "vless",
+      "server": "www.ravinoz.ir",
+      "server_port": 443,
+      "uuid": "a47f13eb-eac7-4bc8-843a-da8688cc1621",
+      "tls": {
+        "enabled": true,
+        "server_name": "docs.ravinoz.ir",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "alpn": [
+          "h2",
+          "http/1.1",
+          "h3"
+        ]
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/live-stream#🔵@chillguy_vpn",
+        "headers": {
+          "Host": "live.ravinoz.ir"
+        }
+      },
+      "domain_resolver": "dns-direct"
+    },
+    {
+      "tag": "🔵@_@chillguy_vpn_7",
+      "type": "vless",
+      "server": "live.ravinoz.ir",
+      "server_port": 2020,
+      "uuid": "a47f13eb-eac7-4bc8-843a-da8688cc1621",
+      "tls": {
+        "enabled": true,
+        "server_name": "www.speedtest.com",
+        "reality": {
+          "enabled": true,
+          "public_key": "wZz_E0D32mxoTFT8UUabNgIp9vSCz8EmCwnEkvbXC2k",
+          "short_id": "910ccf76"
+        },
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "grpc",
+        "service_name": "gun#🔵@chillguy_vpn"
+      },
+      "domain_resolver": "dns-direct"
+    },
+    {
+      "tag": "🔵@_@chillguy_vpn_8",
+      "type": "vless",
+      "server": "192.71.82.2",
+      "server_port": 443,
+      "uuid": "a5c05c1e-aa68-443f-8598-09800244bd4b",
+      "tls": {
+        "enabled": true,
+        "server_name": "kingcloud.biack.ir",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "firefox"
+        },
+        "alpn": [
+          "h3"
+        ]
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/LiL?ed=2560#🔵@chillguy_vpn",
+        "headers": {
+          "Host": "kingcloud.biack.ir"
+        }
+      },
+      "domain_resolver": "dns-direct"
+    },
+    {
+      "tag": "🔵@T.ME_VYNEXAPP",
+      "type": "vless",
+      "server": "192.71.82.2",
+      "server_port": 443,
+      "uuid": "a5c05c1e-aa68-443f-8598-09800244bd4b",
+      "tls": {
+        "enabled": true,
+        "server_name": "kingcloud.biack.ir",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "firefox"
+        },
+        "alpn": [
+          "h3"
+        ]
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/LiL?ed=2560#T.ME/VYNEXAPP",
+        "headers": {
+          "Host": "kingcloud.biack.ir"
+        }
+      },
+      "domain_resolver": "dns-direct"
+    }
+  ],
+  "route": {
+    "rules": [
+      {
+        "ip_cidr": "172.19.0.2",
+        "action": "hijack-dns"
+      },
+      {
+        "clash_mode": "Direct",
+        "outbound": "direct"
+      },
+      {
+        "clash_mode": "Global",
+        "outbound": "✅  Select"
+      },
+      {
+        "action": "sniff"
+      },
+      {
+        "protocol": "dns",
+        "action": "hijack-dns"
+      },
+      {
+        "ip_is_private": true,
+        "outbound": "direct"
+      },
+      {
+        "network": "udp",
+        "action": "reject"
+      }
+    ],
+    "auto_detect_interface": true,
+    "final": "✅  Select"
+  },
+  "ntp": {
+    "enabled": true,
+    "server": "time.cloudflare.com",
+    "server_port": 123,
+    "domain_resolver": "dns-direct",
+    "interval": "30m",
+    "write_to_system": false
+  },
+  "experimental": {
+    "cache_file": {
+      "enabled": true,
+      "store_fakeip": true
+    },
+    "clash_api": {
+      "external_controller": "127.0.0.1:9090",
+      "external_ui": "ui",
+      "default_mode": "Rule",
+      "external_ui_download_url": "https://github.com/MetaCubeX/metacubexd/archive/refs/heads/gh-pages.zip",
+      "external_ui_download_detour": "direct"
+    }
+  }
+}
