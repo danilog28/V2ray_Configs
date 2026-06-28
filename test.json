@@ -103,7 +103,7 @@
       "server_port": 9891,
       "uuid": "97d290a0-acec-4aae-b8cf-c7111a5a6397",
       "transport": {
-        "type": "xhttp",
+        "type": "http",
         "path": "/#🔵@chillguy_vpn",
         "host": "92.38.139.63"
       },
@@ -139,7 +139,7 @@
       "server_port": 9891,
       "uuid": "97d290a0-acec-4aae-b8cf-c7111a5a6397",
       "transport": {
-        "type": "xhttp",
+        "type": "http",
         "path": "/#🔵@chillguy_vpn",
         "host": "92.38.139.63"
       },
@@ -164,7 +164,7 @@
         ]
       },
       "transport": {
-        "type": "xhttp",
+        "type": "http",
         "path": "/#🔵@chillguy_vpn",
         "host": "pars.shopbertar.ir"
       },
