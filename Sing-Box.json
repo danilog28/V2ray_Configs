@@ -61,15 +61,10 @@
       "tag": "✅  Select",
       "outbounds": [
         "Best Ping 🚀",
-        "🎉 @v2ray_Dalghak",
         "🔵@chillguy_vpn_1",
-        "Channel : @Daily_Configs",
         "🔵@chillguy_vpn_2",
         "@V2rayNG_Cafe 💤",
-        "🔵@chillguy_vpn_3",
-        "@vpn_winter+❄️+@v2ray_proxy_npvt",
-        "🔵@chillguy_vpn_4",
-        "🔵@chillguy_vpn_5"
+        "Channel : @Daily_Configs"
       ],
       "interrupt_exist_connections": false
     },
@@ -77,15 +72,10 @@
       "type": "urltest",
       "tag": "Best Ping 🚀",
       "outbounds": [
-        "🎉 @v2ray_Dalghak",
         "🔵@chillguy_vpn_1",
-        "Channel : @Daily_Configs",
         "🔵@chillguy_vpn_2",
         "@V2rayNG_Cafe 💤",
-        "🔵@chillguy_vpn_3",
-        "@vpn_winter+❄️+@v2ray_proxy_npvt",
-        "🔵@chillguy_vpn_4",
-        "🔵@chillguy_vpn_5"
+        "Channel : @Daily_Configs"
       ],
       "url": "https://www.gstatic.com/generate_204",
       "interval": "30s",
@@ -97,37 +87,14 @@
       "domain_resolver": "dns-direct"
     },
     {
-      "tag": "🎉 @v2ray_Dalghak",
-      "type": "trojan",
-      "server": "3.73.46.147",
-      "server_port": 22223,
-      "password": "telegram-id-directvpn",
-      "tls": {
-        "enabled": true,
-        "insecure": false,
-        "server_name": "trojan.burgerip.co.uk",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
-    },
-    {
       "tag": "🔵@chillguy_vpn_1",
       "type": "vless",
-      "server": "178.83.45.122",
+      "server": "rvg-production-dfeb.up.railway.app",
       "server_port": 443,
-      "uuid": "45a4bc71-2eb7-4e08-8d8c-8646c22a47be"
-    },
-    {
-      "tag": "Channel : @Daily_Configs",
-      "type": "vless",
-      "server": "rvg-production-798c.up.railway.app",
-      "server_port": 443,
-      "uuid": "c9c5e676-278f-7bf7-5436-dcf6e3210667",
+      "uuid": "147182ba-946d-9ef2-a209-dbfcccec9231",
       "tls": {
         "enabled": true,
-        "server_name": "rvg-production-798c.up.railway.app",
+        "server_name": "rvg-production-dfeb.up.railway.app",
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
@@ -135,9 +102,9 @@
       },
       "transport": {
         "type": "ws",
-        "path": "/ws/c9c5e676-278f-7bf7-5436-dcf6e3210667",
+        "path": "/ws/147182ba-946d-9ef2-a209-dbfcccec9231",
         "headers": {
-          "Host": "rvg-production-798c.up.railway.app"
+          "Host": "rvg-production-dfeb.up.railway.app"
         }
       },
       "domain_resolver": "dns-direct"
@@ -189,29 +156,14 @@
       "domain_resolver": "dns-direct"
     },
     {
-      "tag": "🔵@chillguy_vpn_3",
+      "tag": "Channel : @Daily_Configs",
       "type": "vless",
-      "server": "connect.nyxserver.ir",
-      "server_port": 80,
-      "uuid": "980282fd-25e7-4b99-bdb2-2c9d276a775e",
-      "transport": {
-        "type": "ws",
-        "path": "/arvan-tuel",
-        "headers": {
-          "Host": "connect.nyxserver.ir"
-        }
-      },
-      "domain_resolver": "dns-direct"
-    },
-    {
-      "tag": "@vpn_winter+❄️+@v2ray_proxy_npvt",
-      "type": "vless",
-      "server": "162.159.38.119",
+      "server": "rvg-production-798c.up.railway.app",
       "server_port": 443,
-      "uuid": "e277ac9b-3225-3381-a9fb-3585419f7142",
+      "uuid": "c9c5e676-278f-7bf7-5436-dcf6e3210667",
       "tls": {
         "enabled": true,
-        "server_name": "media14.ftmsoft.com",
+        "server_name": "rvg-production-798c.up.railway.app",
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
@@ -219,47 +171,9 @@
       },
       "transport": {
         "type": "ws",
-        "path": "/media14",
+        "path": "/ws/c9c5e676-278f-7bf7-5436-dcf6e3210667",
         "headers": {
-          "Host": "media14.ftmsoft.com"
-        }
-      }
-    },
-    {
-      "tag": "🔵@chillguy_vpn_4",
-      "type": "vless",
-      "server": "s2.zynavo.ir",
-      "server_port": 2087,
-      "uuid": "026b8bd2-fa80-49ee-7790-c7d3b56667ac",
-      "tls": {
-        "enabled": true,
-        "server_name": "cdn.zynavo.ir",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "domain_resolver": "dns-direct"
-    },
-    {
-      "tag": "🔵@chillguy_vpn_5",
-      "type": "vless",
-      "server": "rvg-production-dfeb.up.railway.app",
-      "server_port": 443,
-      "uuid": "147182ba-946d-9ef2-a209-dbfcccec9231",
-      "tls": {
-        "enabled": true,
-        "server_name": "rvg-production-dfeb.up.railway.app",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/ws/147182ba-946d-9ef2-a209-dbfcccec9231",
-        "headers": {
-          "Host": "rvg-production-dfeb.up.railway.app"
+          "Host": "rvg-production-798c.up.railway.app"
         }
       },
       "domain_resolver": "dns-direct"
