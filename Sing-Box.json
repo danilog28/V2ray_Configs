@@ -32,17 +32,6 @@
   },
   "inbounds": [
     {
-      "type": "tun",
-      "tag": "tun-in",
-      "address": [
-        "172.19.0.1/28"
-      ],
-      "mtu": 9000,
-      "auto_route": true,
-      "strict_route": true,
-      "stack": "mixed"
-    },
-    {
       "type": "mixed",
       "tag": "mixed-in",
       "listen": "127.0.0.1",
@@ -61,10 +50,10 @@
       "tag": "✅  Select",
       "outbounds": [
         "Best Ping 🚀",
-        "🔵@_@chillguy_vpn",
-        "🔵@_@chillguy_vpn_2",
-        "🔵@_@chillguy_vpn_3",
-        "🔵@_@chillguy_vpn_4"
+        "🔵@chillguy_vpn_1",
+        "🔵@chillguy_vpn_2",
+        "🔵@chillguy_vpn_3",
+        "🔵@chillguy_vpn_4"
       ],
       "interrupt_exist_connections": false
     },
@@ -72,10 +61,10 @@
       "type": "urltest",
       "tag": "Best Ping 🚀",
       "outbounds": [
-        "🔵@_@chillguy_vpn",
-        "🔵@_@chillguy_vpn_2",
-        "🔵@_@chillguy_vpn_3",
-        "🔵@_@chillguy_vpn_4"
+        "🔵@chillguy_vpn_1",
+        "🔵@chillguy_vpn_2",
+        "🔵@chillguy_vpn_3",
+        "🔵@chillguy_vpn_4"
       ],
       "url": "https://www.gstatic.com/generate_204",
       "interval": "30s",
@@ -87,7 +76,7 @@
       "domain_resolver": "dns-direct"
     },
     {
-      "tag": "🔵@_@chillguy_vpn",
+      "tag": "🔵@chillguy_vpn_1",
       "type": "vless",
       "server": "rvg-production-dfeb.up.railway.app",
       "server_port": 443,
@@ -98,14 +87,11 @@
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
-        },
-        "alpn": [
-          "http/1.1"
-        ]
+        }
       },
       "transport": {
         "type": "ws",
-        "path": "/ws/147182ba-946d-9ef2-a209-dbfcccec9231#🔵@chillguy_vpn",
+        "path": "/ws/147182ba-946d-9ef2-a209-dbfcccec9231",
         "headers": {
           "Host": "rvg-production-dfeb.up.railway.app"
         }
@@ -113,7 +99,7 @@
       "domain_resolver": "dns-direct"
     },
     {
-      "tag": "🔵@_@chillguy_vpn_2",
+      "tag": "🔵@chillguy_vpn_2",
       "type": "vless",
       "server": "192.71.82.2",
       "server_port": 443,
@@ -128,15 +114,14 @@
       },
       "transport": {
         "type": "ws",
-        "path": "/LiL#🔵@chillguy_vpn",
+        "path": "/LiL",
         "headers": {
           "Host": "kingcloud.biack.ir"
         }
-      },
-      "domain_resolver": "dns-direct"
+      }
     },
     {
-      "tag": "🔵@_@chillguy_vpn_3",
+      "tag": "🔵@chillguy_vpn_3",
       "type": "vless",
       "server": "162.159.38.119",
       "server_port": 443,
@@ -147,22 +132,18 @@
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
-        },
-        "alpn": [
-          "http/1.1"
-        ]
+        }
       },
       "transport": {
         "type": "ws",
-        "path": "/media14#🔵@chillguy_vpn",
+        "path": "/media14",
         "headers": {
           "Host": "media14.ftmsoft.com"
         }
-      },
-      "domain_resolver": "dns-direct"
+      }
     },
     {
-      "tag": "🔵@_@chillguy_vpn_4",
+      "tag": "🔵@chillguy_vpn_4",
       "type": "vless",
       "server": "192.71.82.2",
       "server_port": 443,
@@ -172,20 +153,13 @@
         "server_name": "kingcloud.biack.ir",
         "utls": {
           "enabled": true,
-          "fingerprint": "firefox"
-        },
-        "alpn": [
-          "h3"
-        ]
+          "fingerprint": "chrome"
+        }
       },
       "transport": {
         "type": "ws",
-        "path": "/LiL?ed=2560#🔵@chillguy_vpn",
-        "headers": {
-          "Host": "kingcloud.biack.ir"
-        }
-      },
-      "domain_resolver": "dns-direct"
+        "path": "/LiL?ed=2560"
+      }
     }
   ],
   "route": {
