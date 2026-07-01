@@ -61,10 +61,10 @@
       "tag": "✅  Select",
       "outbounds": [
         "Best Ping 🚀",
-        "🔵@chillguy_vpn_1",
-        "🔵@chillguy_vpn_2",
-        "@V2rayNG_Cafe 💤",
-        "Channel : @Daily_Configs"
+        "🔵@_@chillguy_vpn",
+        "🔵@_@chillguy_vpn_2",
+        "🔵@_@chillguy_vpn_3",
+        "🔵@_@chillguy_vpn_4"
       ],
       "interrupt_exist_connections": false
     },
@@ -72,10 +72,10 @@
       "type": "urltest",
       "tag": "Best Ping 🚀",
       "outbounds": [
-        "🔵@chillguy_vpn_1",
-        "🔵@chillguy_vpn_2",
-        "@V2rayNG_Cafe 💤",
-        "Channel : @Daily_Configs"
+        "🔵@_@chillguy_vpn",
+        "🔵@_@chillguy_vpn_2",
+        "🔵@_@chillguy_vpn_3",
+        "🔵@_@chillguy_vpn_4"
       ],
       "url": "https://www.gstatic.com/generate_204",
       "interval": "30s",
@@ -87,7 +87,7 @@
       "domain_resolver": "dns-direct"
     },
     {
-      "tag": "🔵@chillguy_vpn_1",
+      "tag": "🔵@_@chillguy_vpn",
       "type": "vless",
       "server": "rvg-production-dfeb.up.railway.app",
       "server_port": 443,
@@ -98,11 +98,14 @@
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
-        }
+        },
+        "alpn": [
+          "http/1.1"
+        ]
       },
       "transport": {
         "type": "ws",
-        "path": "/ws/147182ba-946d-9ef2-a209-dbfcccec9231",
+        "path": "/ws/147182ba-946d-9ef2-a209-dbfcccec9231#🔵@chillguy_vpn",
         "headers": {
           "Host": "rvg-production-dfeb.up.railway.app"
         }
@@ -110,14 +113,14 @@
       "domain_resolver": "dns-direct"
     },
     {
-      "tag": "🔵@chillguy_vpn_2",
+      "tag": "🔵@_@chillguy_vpn_2",
       "type": "vless",
-      "server": "rvg-production-798c.up.railway.app",
+      "server": "192.71.82.2",
       "server_port": 443,
-      "uuid": "c9c5e676-278f-7bf7-5436-dcf6e3210667",
+      "uuid": "a5c05c1e-aa68-443f-8598-09800244bd4b",
       "tls": {
         "enabled": true,
-        "server_name": "rvg-production-798c.up.railway.app",
+        "server_name": "kingcloud.biack.ir",
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
@@ -125,55 +128,61 @@
       },
       "transport": {
         "type": "ws",
-        "path": "/ws/c9c5e676-278f-7bf7-5436-dcf6e3210667",
+        "path": "/LiL#🔵@chillguy_vpn",
         "headers": {
-          "Host": "rvg-production-798c.up.railway.app"
+          "Host": "kingcloud.biack.ir"
         }
       },
       "domain_resolver": "dns-direct"
     },
     {
-      "tag": "@V2rayNG_Cafe 💤",
+      "tag": "🔵@_@chillguy_vpn_3",
       "type": "vless",
-      "server": "ansooyefilter.up.railway.app",
+      "server": "162.159.38.119",
       "server_port": 443,
-      "uuid": "59dc27e9-6b31-738d-eb04-bd66dc037892",
+      "uuid": "e277ac9b-3225-3381-a9fb-3585419f7142",
       "tls": {
         "enabled": true,
-        "server_name": "ansooyefilter.up.railway.app",
+        "server_name": "media14.ftmsoft.com",
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
-        }
+        },
+        "alpn": [
+          "http/1.1"
+        ]
       },
       "transport": {
         "type": "ws",
-        "path": "/ws/59dc27e9-6b31-738d-eb04-bd66dc037892",
+        "path": "/media14#🔵@chillguy_vpn",
         "headers": {
-          "Host": "ansooyefilter.up.railway.app"
+          "Host": "media14.ftmsoft.com"
         }
       },
       "domain_resolver": "dns-direct"
     },
     {
-      "tag": "Channel : @Daily_Configs",
+      "tag": "🔵@_@chillguy_vpn_4",
       "type": "vless",
-      "server": "rvg-production-798c.up.railway.app",
+      "server": "192.71.82.2",
       "server_port": 443,
-      "uuid": "c9c5e676-278f-7bf7-5436-dcf6e3210667",
+      "uuid": "a5c05c1e-aa68-443f-8598-09800244bd4b",
       "tls": {
         "enabled": true,
-        "server_name": "rvg-production-798c.up.railway.app",
+        "server_name": "kingcloud.biack.ir",
         "utls": {
           "enabled": true,
-          "fingerprint": "chrome"
-        }
+          "fingerprint": "firefox"
+        },
+        "alpn": [
+          "h3"
+        ]
       },
       "transport": {
         "type": "ws",
-        "path": "/ws/c9c5e676-278f-7bf7-5436-dcf6e3210667",
+        "path": "/LiL?ed=2560#🔵@chillguy_vpn",
         "headers": {
-          "Host": "rvg-production-798c.up.railway.app"
+          "Host": "kingcloud.biack.ir"
         }
       },
       "domain_resolver": "dns-direct"
